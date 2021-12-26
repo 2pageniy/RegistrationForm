@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+html {
+    font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-sign-in {
+    position: relative;
+    border: 2px solid #008080;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 10px auto 0;
+}
+
+.new-account {
+    text-align: center;
+}
+
+
+.users-table {
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.users-table td,
+.users-table th {
+    border: 1px solid black;
+}
+
+.group-btn {
+    margin: 20px 110px;
+}
+
+.group-btn label {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.img-delete-icon {
+    max-width: 35px;
+    height: auto;
+}
